@@ -1,0 +1,28 @@
+body {
+  background-color: floralwhite;
+}
+
+.small {
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+}
+.navigator {
+  background: rgb(70, 85, 53);
+  background: radial-gradient(
+    circle,
+    rgba(70, 85, 53, 0.7105217086834734) 35%,
+    rgba(206, 219, 21, 0.44441526610644255) 97%
+  );
+}
+.inner-card {
+  margin: 25px 20px 20px 20px;
+}
+
+article {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 3vh;
+}
+p {
+  height: 0.1vh;
+  font-family: "Times New Roman", Times, serif;
+}

@@ -1,0 +1,28 @@
+<%- include("./partials/header.ejs") %>
+<!-- <form action="/cluck/sign_in" method="POST">
+  <input type="text" name="username" id="username" />
+  <button type="submit">
+    Create Cluck
+  </button>
+</form> -->
+<div class="container">
+  <form action="/cluck/sign_in" method="POST">
+    <div class="form-group">
+      <label for="content"><strong>Sign in</strong></label>
+      <input
+        type="text"
+        class="form-control"
+        id="username"
+        aria-describedby="emailHelp"
+        name="username"
+        placeholder="Please enter your username! "
+      />
+      <small id="emailHelp" class="form-text text-muted"
+        >Press submit after filling username
+      </small>
+    </div>
+    <button type="submit" class="btn btn-success">Sign In</button>
+  </form>
+</div>
+
+<%- include("./partials/footer.ejs") %>

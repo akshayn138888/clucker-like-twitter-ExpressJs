@@ -1,0 +1,44 @@
+<%- include("./partials/header.ejs") %>
+<div class="container">
+  <form action="/cluck" method="POST">
+    <div class="form-group">
+      <label for="content"><strong>Content</strong></label>
+      <input
+        type="text"
+        class="form-control"
+        id="content"
+        aria-describedby="emailHelp"
+        name="content"
+        placeholder="Please type your Cluck here ! "
+      />
+      <small id="emailHelp" class="form-text text-muted"
+        >What's on your Mind ! Share it with the world.
+      </small>
+    </div>
+    <div class="form-group">
+      <label for="image_url"> <strong>Image_url</strong> </label>
+      <input
+        type="text"
+        class="form-control"
+        id="image_url"
+        name="image_url"
+        placeholder="http://somepng.com "
+      />
+      <small id="emailHelp" class="form-text text-muted ">
+        Please add your Image URL here !
+      </small>
+    </div>
+
+    <div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+        style="margin-bottom: 0.5em;"
+      >
+        Cluck It
+      </button>
+    </div>
+  </form>
+</div>
+
+<%- include("./partials/footer.ejs") %>
